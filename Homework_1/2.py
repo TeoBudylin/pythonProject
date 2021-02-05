@@ -1,12 +1,9 @@
 s = input("Pls, enter time in seconds:  ")
 
-ss = int(s) % 60
-
-mm = int(s) // 60
-
 hh = int(s) // 3600
 
-if ss < 10:
-    sss = "0"
+mm = int(s) // 60 - hh * 60
 
-print(f"{hh}:{mm}:{ss}")
+ss = int(s) % 60
+
+print(f"{hh:02}:{mm:02}:{ss:02}")
