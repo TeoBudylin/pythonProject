@@ -10,7 +10,7 @@ while True:
     new_item = int(input("Введите новый элемент - натуральное число (для завершения введите 0): "))
 
     if new_item == 0:
-        break
+        exit()
 
     i = 0
     while i < len(my_list):
