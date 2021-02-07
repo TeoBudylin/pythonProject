@@ -9,7 +9,7 @@ while (True):
         my_list.append(new_el)
     else:
         break
-
+zip
 print(my_list)
 
 i = 0
