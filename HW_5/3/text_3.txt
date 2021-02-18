@@ -1,0 +1,5 @@
+Ivanov 50000
+Sidorov 15000
+Uspenskiy 60000
+Arshavin 10000
+Popov 100000
